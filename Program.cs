@@ -5,7 +5,7 @@ namespace Task_1_JSON_to_XML
 {
     internal class Program
     {
-        public static XElement JsonToXml(JsonElement element, string nameElement)
+        public static XElement JsonToXml(JsonElement element, string nameElement) //создаем метод для преобразования JSON в XML
         {
             nameElement = nameElement.Replace(" ", "_"); // Проверяем имя элемента. Если в нем есть пробелы меняем их на _
 
